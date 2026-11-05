@@ -486,57 +486,28 @@ The generated reports should be reviewed to confirm that the extracted fields an
 
 ---
 
-## 📸 Evidence & Screenshots
+# 📸 Evidence & Screenshots
 
-Screenshots provide visual evidence of the implementation and execution.
+The following screenshots demonstrate the project structure,
+execution, extracted telemetry, generated reports, and implementation.
 
 ### 01 — Project Structure
-
-Shows the project folders and main files in Visual Studio Code.
-
 ![Project Structure](screenshots/01-project-structure.png)
 
----
-
 ### 02 — Terminal Execution
-
-Shows the Python command and successful authentication-log analysis output.
-
 ![Terminal Execution](screenshots/02-terminal-execution.png)
 
----
-
 ### 03 — CSV Output
-
-Shows extracted failed-authentication records in the generated CSV file.
-
 ![CSV Output](screenshots/03-csv-output.png)
 
----
-
 ### 04 — JSON Report
-
-Shows the structured JSON report, including event details and ranked source IPs.
-
 ![JSON Report](screenshots/04-json-report.png)
 
----
-
 ### 05 — Python Parser
-
-Shows the Python implementation and regular-expression parsing logic.
-
 ![Python Parser](screenshots/05-python-parser.png)
 
----
-
 ### 06 — README Preview
-
-Shows the project documentation rendered in the GitHub or VS Code Markdown preview.
-
 ![README Preview](screenshots/06-readme-preview.png)
-
-> Add the six actual screenshots to the `screenshots/` folder using the filenames shown above before publishing. The image links are prepared for those files.
 
 ---
 
