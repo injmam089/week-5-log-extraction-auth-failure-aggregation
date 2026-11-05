@@ -1,0 +1,144 @@
+{
+  "source_file": "/mnt/data/week-5-log-extraction-auth-failure-aggregation/samples/auth.log",
+  "total_failed_events": 11,
+  "unique_source_ips": 3,
+  "unique_targeted_accounts": 8,
+  "top_attacking_ips": [
+    {
+      "source_ip": "203.0.113.10",
+      "failed_attempts": 6
+    },
+    {
+      "source_ip": "198.51.100.23",
+      "failed_attempts": 3
+    },
+    {
+      "source_ip": "192.0.2.44",
+      "failed_attempts": 2
+    }
+  ],
+  "targeted_accounts": [
+    {
+      "username": "root",
+      "attempts": 3
+    },
+    {
+      "username": "admin",
+      "attempts": 2
+    },
+    {
+      "username": "ubuntu",
+      "attempts": 1
+    },
+    {
+      "username": "test",
+      "attempts": 1
+    },
+    {
+      "username": "guest",
+      "attempts": 1
+    },
+    {
+      "username": "oracle",
+      "attempts": 1
+    },
+    {
+      "username": "deploy",
+      "attempts": 1
+    },
+    {
+      "username": "www-data",
+      "attempts": 1
+    }
+  ],
+  "events": [
+    {
+      "timestamp": "2026-11-06 09:10:01",
+      "host": "ubuntu-server",
+      "source_ip": "203.0.113.10",
+      "username": "root",
+      "event_type": "failed_authentication",
+      "raw_log": "Nov  6 09:10:01 ubuntu-server sshd[1001]: Failed password for root from 203.0.113.10 port 51001 ssh2"
+    },
+    {
+      "timestamp": "2026-11-06 09:10:08",
+      "host": "ubuntu-server",
+      "source_ip": "203.0.113.10",
+      "username": "admin",
+      "event_type": "failed_authentication",
+      "raw_log": "Nov  6 09:10:08 ubuntu-server sshd[1002]: Failed password for invalid user admin from 203.0.113.10 port 51002 ssh2"
+    },
+    {
+      "timestamp": "2026-11-06 09:11:15",
+      "host": "ubuntu-server",
+      "source_ip": "198.51.100.23",
+      "username": "ubuntu",
+      "event_type": "failed_authentication",
+      "raw_log": "Nov  6 09:11:15 ubuntu-server sshd[1003]: Failed password for ubuntu from 198.51.100.23 port 51003 ssh2"
+    },
+    {
+      "timestamp": "2026-11-06 09:12:02",
+      "host": "ubuntu-server",
+      "source_ip": "198.51.100.23",
+      "username": "test",
+      "event_type": "failed_authentication",
+      "raw_log": "Nov  6 09:12:02 ubuntu-server sshd[1004]: Invalid user test from 198.51.100.23"
+    },
+    {
+      "timestamp": "2026-11-06 09:12:44",
+      "host": "ubuntu-server",
+      "source_ip": "203.0.113.10",
+      "username": "root",
+      "event_type": "failed_authentication",
+      "raw_log": "Nov  6 09:12:44 ubuntu-server sshd[1005]: Failed password for root from 203.0.113.10 port 51005 ssh2"
+    },
+    {
+      "timestamp": "2026-11-06 09:13:17",
+      "host": "ubuntu-server",
+      "source_ip": "192.0.2.44",
+      "username": "guest",
+      "event_type": "failed_authentication",
+      "raw_log": "Nov  6 09:13:17 ubuntu-server sshd[1006]: Failed password for guest from 192.0.2.44 port 51006 ssh2"
+    },
+    {
+      "timestamp": "2026-11-06 09:14:29",
+      "host": "ubuntu-server",
+      "source_ip": "203.0.113.10",
+      "username": "oracle",
+      "event_type": "failed_authentication",
+      "raw_log": "Nov  6 09:14:29 ubuntu-server sshd[1007]: Failed password for invalid user oracle from 203.0.113.10 port 51007 ssh2"
+    },
+    {
+      "timestamp": "2026-11-06 09:15:03",
+      "host": "ubuntu-server",
+      "source_ip": "198.51.100.23",
+      "username": "deploy",
+      "event_type": "failed_authentication",
+      "raw_log": "Nov  6 09:15:03 ubuntu-server sshd[1008]: Failed password for deploy from 198.51.100.23 port 51008 ssh2"
+    },
+    {
+      "timestamp": "2026-11-06 09:16:51",
+      "host": "ubuntu-server",
+      "source_ip": "203.0.113.10",
+      "username": "root",
+      "event_type": "failed_authentication",
+      "raw_log": "Nov  6 09:16:51 ubuntu-server sshd[1009]: Failed password for root from 203.0.113.10 port 51009 ssh2"
+    },
+    {
+      "timestamp": "2026-11-06 09:18:11",
+      "host": "ubuntu-server",
+      "source_ip": "192.0.2.44",
+      "username": "www-data",
+      "event_type": "failed_authentication",
+      "raw_log": "Nov  6 09:18:11 ubuntu-server sshd[1011]: Failed password for www-data from 192.0.2.44 port 51011 ssh2"
+    },
+    {
+      "timestamp": "2026-11-06 09:19:33",
+      "host": "ubuntu-server",
+      "source_ip": "203.0.113.10",
+      "username": "admin",
+      "event_type": "failed_authentication",
+      "raw_log": "Nov  6 09:19:33 ubuntu-server sshd[1012]: Failed password for invalid user admin from 203.0.113.10 port 51012 ssh2"
+    }
+  ]
+}

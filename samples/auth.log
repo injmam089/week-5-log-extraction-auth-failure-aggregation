@@ -1,0 +1,12 @@
+Nov  6 09:10:01 ubuntu-server sshd[1001]: Failed password for root from 203.0.113.10 port 51001 ssh2
+Nov  6 09:10:08 ubuntu-server sshd[1002]: Failed password for invalid user admin from 203.0.113.10 port 51002 ssh2
+Nov  6 09:11:15 ubuntu-server sshd[1003]: Failed password for ubuntu from 198.51.100.23 port 51003 ssh2
+Nov  6 09:12:02 ubuntu-server sshd[1004]: Invalid user test from 198.51.100.23
+Nov  6 09:12:44 ubuntu-server sshd[1005]: Failed password for root from 203.0.113.10 port 51005 ssh2
+Nov  6 09:13:17 ubuntu-server sshd[1006]: Failed password for guest from 192.0.2.44 port 51006 ssh2
+Nov  6 09:14:29 ubuntu-server sshd[1007]: Failed password for invalid user oracle from 203.0.113.10 port 51007 ssh2
+Nov  6 09:15:03 ubuntu-server sshd[1008]: Failed password for deploy from 198.51.100.23 port 51008 ssh2
+Nov  6 09:16:51 ubuntu-server sshd[1009]: Failed password for root from 203.0.113.10 port 51009 ssh2
+Nov  6 09:17:20 ubuntu-server sshd[1010]: Accepted password for ubuntu from 198.51.100.23 port 51010 ssh2
+Nov  6 09:18:11 ubuntu-server sshd[1011]: Failed password for www-data from 192.0.2.44 port 51011 ssh2
+Nov  6 09:19:33 ubuntu-server sshd[1012]: Failed password for invalid user admin from 203.0.113.10 port 51012 ssh2
