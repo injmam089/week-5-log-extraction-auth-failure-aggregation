@@ -650,7 +650,7 @@ This project builds on foundational Linux security work and provides a practical
 
 Cybersecurity Intern — GetIntern.in
 
-Week 5 — Defensive Telemetry & Log Parsing
+Week 5 — Defensive Telemetry & Log Parsing.
 
 ---
 
